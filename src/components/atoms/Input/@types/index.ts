@@ -1,3 +1,8 @@
 export type TInputProps = {
-    children?: any;
+    label?: string;
+    type: string;
+    id?: string;
+    placeholder?: string;
+    name?: string;
+    required?: boolean;
 }
