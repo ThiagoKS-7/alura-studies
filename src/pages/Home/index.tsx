@@ -1,10 +1,14 @@
 import Button from "@/components/atoms/Button/Button";
 import Input from "@/components/atoms/Input/Input";
-import ListItem from "@/components/atoms/ListItem/ListItem";
 import List from "@/components/molecules/List/List";
 import { StyledContainer, StyledFooter, StyledForm } from "./styles";
 
 export default function Home() {
+    const list = [
+        { title:"React", description: "2:00"},
+        { title:"Typescript", description: "1:00"},
+    ];
+
     return (
         <>
             <StyledContainer>
@@ -15,10 +19,7 @@ export default function Home() {
                     <Button>Submit</Button>
                     </StyledFooter>
                 </StyledForm>
-                <List title="Estudos do dia">
-                    <ListItem title="React" description="2:00"/>
-                    <ListItem title="Typescript" description="1:00"/>
-                </List>
+                <List title="Estudos do dia" list={list}/>
             </StyledContainer>
         </>
     )
