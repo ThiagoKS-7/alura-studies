@@ -1,5 +1,6 @@
 import { StyledList,Title} from './styles';
 import { TListProps } from './@types';
+import ListItem from '@/components/atoms/ListItem/ListItem';
 
 export default function List(props:TListProps) {
     return(
@@ -14,7 +15,9 @@ export default function List(props:TListProps) {
                     ) : <></>
 
                 }
-                {props.children}
+                {
+                    props.list.map((el:any,key:number) => {return <ListItem key={key} title={el.title} description={el.description}/>})
+                }
             </StyledList>
        </>
     )

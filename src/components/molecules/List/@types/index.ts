@@ -1,4 +1,4 @@
 export type TListProps = {
-    children?: any;
+    list: any;
     title?: string;
 }
