@@ -9,7 +9,7 @@ export const StyledList = styled('ul')`
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-image: linear-gradient(to right, #141e30, #243b55);
     display: flex;
     align-items: center;
     min-height: 60px;
@@ -26,6 +26,11 @@ export const LinkItem = styled('li')`
 
         &:hover {
             background-color: #000!important;
+        }
+
+        @media screen and (min-width: 1380px) {
+            font-size: 35px;
+            padding: 0.7em;
         }
     }
 

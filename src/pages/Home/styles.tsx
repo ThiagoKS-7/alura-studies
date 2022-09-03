@@ -6,18 +6,66 @@ export const StyledContainer = styled('div')`
     min-height: 76%;
     width: fill-available;
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-image: linear-gradient(to right, #141e30, #243b55);
     box-sizing: border-box;
 `;
 
-export const StyledForm = styled('form')``;
+export const StyledForm = styled('form')`
+    display:flex;
+    flex-direction: column;
+    grid-area: nova-tarefa;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px #0000009F;
+    padding: 1.5em 1em;
+    width: 35%;
+    height: fit-content;
+    @media screen and (max-width: 600px) {
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    @media screen and (min-width: 1280px) {
+            padding: 1.5em 1em 1.5em 2.5em;
+    }
+`;
 
 export const StyledFooter = styled('div')`
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     width: 98.5%;
     margin-top: 1em;
     @media screen and (max-width: 600px) {
         width: 99.6%;
+    }
+`;
+
+export const WatchContainer = styled('div')`
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+`;
+
+export const ContentView = styled('div') `
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    @media screen and (max-width: 600px) {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+`;
+
+export const WatchDescription = styled('span')`
+    margin-top: 2%;
+    font-size: 25px;
+    color:white;
+    @media screen and (max-width: 600px) {
+        font-size: 18px;
+    }
+    @media screen and (min-width: 1280px) {
+            font-size: 30px;
     }
 `;
