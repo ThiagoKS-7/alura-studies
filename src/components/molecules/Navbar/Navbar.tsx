@@ -6,7 +6,7 @@ import { TNavProps } from "./@types";
 
 export default function Navbar(props:TNavProps) {
     const handleClick = useCallback((event:any) => {
-        const list = document.querySelector("ul.css-x4ibcm");
+        const list = document.querySelector("ul");
         getSelectedItem(list,event.target.firstChild.data);
     },[]);
 
@@ -15,9 +15,11 @@ export default function Navbar(props:TNavProps) {
             if (item.firstChild.data === value) {
                 item.style.backgroundColor = "#04AA6D";
                 item.style.fontWeight = "bold";
+                item.style.textTransform = "uppercase";
             } else {
                 item.style.backgroundColor = "transparent";
                 item.style.fontWeight = "normal";
+                item.style.textTransform = "none"
             }
         })
     };

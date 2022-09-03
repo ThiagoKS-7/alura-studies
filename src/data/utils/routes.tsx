@@ -5,5 +5,5 @@ import Test from "@/pages/Test";
 */
 export const routes = [
     {key: "/", name:"Home", value: <Home/>},
-    {key: "/lista", name:"Test",value: <Test/>},
+    {key: "/lista", name:"Dashboard",value: <Test/>},
 ];
