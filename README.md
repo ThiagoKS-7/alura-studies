@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Alura Studies
+
+![image](https://user-images.githubusercontent.com/83460816/188252086-88951563-5936-414f-bcb5-9963f3492d9f.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
