@@ -1,8 +1,7 @@
 import { styled } from "@mui/system";
 
 export const StyledButton = styled('button')`
-    background-color: #59af4c;
-    border: none;
+    background: linear-gradient(.25turn, rgb(245, 175, 153) 10%, #ff9cd1, #feb1e4); 
     border-radius: 4px;
     color: white;
     text-align: center;
@@ -18,14 +17,16 @@ export const StyledButton = styled('button')`
     }
 
     &:hover {
-      background-color: #3e8e61;
+      background: linear-gradient(.25turn, rgb(205, 127, 105) 10%, #bd568d, #bc5c9c);
+      box-shadow: 15px 10px 20px #0000009F;
+      border: 0.5px solid #f008b6;
     }
     @media screen and (max-width: 600px) {
       padding: 0.5em 5.5em;
       border-radius: 15px;
     }
     @media screen and (min-width: 1380px) {
-        font-size: 30px;
+        font-size: 20px;
         padding: 0.9em 2.5em;
     }
 `;

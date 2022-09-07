@@ -6,7 +6,7 @@ body,html, #root,#App {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(90deg, rgba(228,228,233,1) 0%, rgba(216,242,240,0.9906337535014006) 0%, rgba(197,234,241,1) 100%);
+  background: linear-gradient(to left, #E7F0FD 0.5%, #ADCCEF);
 }
 
 button,input,a {

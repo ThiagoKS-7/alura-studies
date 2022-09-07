@@ -15,7 +15,7 @@ export const StyledList = styled('ul')`
     ::-webkit-scrollbar-track {
         background-color: #5D677C;
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1000px) {
         width: 100%;
         height: 240px;
     }
@@ -41,7 +41,8 @@ export const ListContainer = styled('div')`
     display:flex;
     flex-direction: column;
     width: 50%;
-    @media screen and (max-width: 600px) {
-        width: 100%;
+    @media screen and (max-width: 1000px) {
+        margin: 2em 0;
+        width: 85%;
     }
 `;
