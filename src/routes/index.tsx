@@ -1,4 +1,5 @@
 
+import React from "react";
 import Navbar from "@/components/molecules/Navbar/Navbar";
 import { routes } from "@/data/utils/routes";
 import { BrowserRouter, Routes, Route } from "react-router-dom";

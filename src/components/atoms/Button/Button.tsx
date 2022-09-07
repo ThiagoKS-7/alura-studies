@@ -5,7 +5,7 @@ import { TButtonProps } from './@types';
 function Button(props:TButtonProps) {
     return(
         <>
-            <StyledButton>
+            <StyledButton type="submit">
                 {props.children}
             </StyledButton>
         </>
