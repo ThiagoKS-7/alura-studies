@@ -1,3 +1,4 @@
+import React from "react";
 import { TWatchProps } from "./@types";
 import { WatchContainer, WatchDivision, WatchNumber } from "./styles";
 
