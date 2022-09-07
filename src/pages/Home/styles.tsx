@@ -1,26 +1,29 @@
 import { styled } from "@mui/system";
 
 export const StyledContainer = styled('div')`
-    padding: 20px;
+    padding: 10px;
     margin: 0 2em 2em 2em;
     min-height: 76%;
     width: fill-available;
-    border-radius: 5px;
+    border-radius: 35px;
     background-image: linear-gradient(to right, #141e30, #243b55);
     box-sizing: border-box;
+    @media screen and (max-width: 1000px) {
+        border-radius: 20px;
+    }
 `;
 
 export const StyledForm = styled('form')`
     display:flex;
     flex-direction: column;
     grid-area: nova-tarefa;
-    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background-image: linear-gradient(to left, #0f0c29, #302b63, #24243e);
     border-radius: 10px;
     box-shadow: 2px 4px 4px #0000009F;
     padding: 1.5em 1em;
     width: 35%;
     height: fit-content;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1000px) {
         width: 80%;
         margin-bottom: 5%;
     }
@@ -44,13 +47,15 @@ export const WatchContainer = styled('div')`
     flex-direction: column;
     align-items:center;
     width: 100%;
+    margin: 0 0 1em 0px;
 `;
 
 export const ContentView = styled('div') `
     display: flex;
     justify-content: space-evenly;
     margin-top: 2%;
-    @media screen and (max-width: 600px) {
+    height: 90%;
+    @media screen and (max-width: 1000px) {
         margin-top: 5%;
         display: flex;
         flex-direction: column;

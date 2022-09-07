@@ -1,7 +1,7 @@
 import { styled } from "@mui/system";
 
 export const WatchNumber = styled('span')`
-    background-color: #5D677C;
+    background: linear-gradient(.25turn, #757677,#a9b0b4);
     box-shadow: 2px 2px 4px #2B2B2B inset;
     height: inherit;
     width:fit-content;
@@ -10,7 +10,7 @@ export const WatchNumber = styled('span')`
     padding: 8px 10px;
     border-radius: 10px;
     font-size: 1.5em;
-    color: #c4c4c4;
+    color: white;
 
     @media screen and (min-width:1280px) {
         font-size: 3.5em;
@@ -36,7 +36,7 @@ export const WatchDivision = styled('span')`
 
 export const WatchContainer = styled('div')`
     align-items: center;
-    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background-image: linear-gradient(.25turn, #302b63 20%, #0f0c29);//linear-gradient(to right, #0f0c29, #302b63, #24243e);
     border-radius: 10px;
     box-shadow: 2px 4px 4px #0000009F;
     box-sizing: border-box;
@@ -52,7 +52,7 @@ export const WatchContainer = styled('div')`
         padding: 0.2em;
     }
     @media screen and (min-width:1280px) {
-        font-size: 4.5em;
+        font-size: 2.6em;
         padding: 0.8em;
         border-radius: 15px;
     }
