@@ -1,6 +1,6 @@
 # Alura Studies
 
-![image](https://user-images.githubusercontent.com/83460816/188252086-88951563-5936-414f-bcb5-9963f3492d9f.png)
+![image](https://user-images.githubusercontent.com/83460816/188781361-dcb0db02-9941-4d77-8123-e8793aedd18e.png)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
