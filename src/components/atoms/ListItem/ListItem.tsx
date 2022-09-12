@@ -4,7 +4,7 @@ import { TListItemProps } from './@types';
 export default function ListItem(props:TListItemProps) {
     return(
        <>
-            <StyledListItem id={props.listId} onClick={props.onClick}>
+            <StyledListItem key={props.key} onClick={props.onClick}>
                 <Title>
                     <Icon className={props.className}></Icon>
                     {props.title}
@@ -18,7 +18,7 @@ export default function ListItem(props:TListItemProps) {
                     ) : <></>
                 }
                 <DeleteIconContainer onClick={props.onDelete}>
-                    <DeleteIcon  id={props.listId}  className="material-symbols-outlined">
+                    <DeleteIcon  className="material-symbols-outlined">
                         delete
                     </DeleteIcon>
                 </DeleteIconContainer>

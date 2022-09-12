@@ -74,3 +74,36 @@ export const WatchDescription = styled('span')`
             font-size: 30px;
     }
 `;
+
+export const SearchInputContainer = styled('div')`
+    position:relative;
+`;
+
+export const SearchIconContainer = styled('div')`
+    position:absolute;
+    bottom: 18%;
+    right: 3.7%;
+    height: 45px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(62deg, #6e5f8f 0%, #a38ed2 100%);
+    &:hover {
+        background:linear-gradient(62deg, #a38ed2 0%, #f9c1eb 100%);
+    }
+    @media screen and (min-width: 1px) and (max-width: 600px) {
+        height: 40px;
+        right: 0%;
+        bottom: 0%;
+    }
+    @media screen and (min-width: 601px) and (max-width: 1200px) {
+        height: 40px;
+        right: 5%;
+        bottom: 0%;
+    }
+`;
+
+export const SearchIcon = styled('span')``;
