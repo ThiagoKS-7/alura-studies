@@ -5,11 +5,11 @@ import { WatchContainer, WatchDivision, WatchNumber } from "./styles";
 export default function Watch(props:TWatchProps) {
     return (
         <WatchContainer>
-            <WatchNumber>0</WatchNumber>
-            <WatchNumber>0</WatchNumber>
+            <WatchNumber>{props.time.decHour}</WatchNumber>
+            <WatchNumber>{props.time.hour}</WatchNumber>
             <WatchDivision>:</WatchDivision>
-            <WatchNumber>0</WatchNumber>
-            <WatchNumber>0</WatchNumber>
+            <WatchNumber>{props.time.decMin}</WatchNumber>
+            <WatchNumber>{props.time.min}</WatchNumber>
         </WatchContainer>
     )
 }

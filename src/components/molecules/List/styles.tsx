@@ -43,6 +43,6 @@ export const ListContainer = styled('div')`
     width: 50%;
     @media screen and (max-width: 1000px) {
         margin: 2em 0;
-        width: 85%;
+        width: 95%;
     }
 `;
