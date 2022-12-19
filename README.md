@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/83460816/188956030-c11d6bc8-5855-4b45-8709-e712d4505396.png)
 
 
-alura-studies-ten.vercel.app
+[view demo](alura-studies-ten.vercel.app)
 
 
 
